@@ -1,0 +1,9 @@
+.displayBox {
+  @apply -z-10 absolute inset-0 border-2 rounded-xl border-cyan-300 neon-cyan dark:border-pink-300 dark:neon-pink animate-pulse;
+}
+.deleteButtonStyle {
+  @apply -z-10 absolute inset-0 border-2 rounded-xl border-pink-300 neon-pink animate-pulse w-[90px];
+}
+.editButtonStyle {
+  @apply -z-10 absolute inset-0 border-2 rounded-xl border-cyan-300 neon-cyan dark:border-pink-300 dark:neon-pink animate-pulse w-[70px];
+}

@@ -1,0 +1,9 @@
+.pageLayout {
+  @apply block space-y-10;
+}
+.heroLayout {
+  @apply mt-[80px] mb-[40px];
+}
+.heroText {
+  @apply h-[100px] text-5xl md:text-6xl text-center font-handwriting  bg-gradient-to-r from-[#ec008c] to-[#fc6767] bg-clip-text text-transparent;
+}

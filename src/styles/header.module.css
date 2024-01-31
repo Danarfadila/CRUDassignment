@@ -1,0 +1,15 @@
+.headerLayout {
+  @apply flex justify-between py-5 px-5;
+}
+.logoLayout {
+  @apply relative w-fit m-[10px] px-3;
+}
+.logoTittleLayout {
+  @apply w-fit p-[5px];
+}
+.logoTittle {
+  @apply font-light bg-gradient-to-r from-[#ec008c] to-[#fc6767] bg-clip-text text-transparent text-3xl;
+}
+.borderLogo {
+  @apply absolute inset-0 border-2 rounded-xl border-pink-300 neon-pink animate-pulse;
+}

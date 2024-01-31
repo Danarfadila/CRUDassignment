@@ -1,0 +1,9 @@
+.boxStyle {
+  @apply w-full h-[200px] p-[10px] outline-none rounded-lg;
+}
+.boxBorder {
+  @apply -z-10 absolute inset-0 border-2 rounded-xl border-cyan-300 neon-cyan dark:border-pink-300 dark:neon-pink animate-pulse;
+}
+.buttonStyle {
+  @apply w-[855px] h-[40px] border-2 border-pink-300 neon-pink hover:scale-105 duration-500 text-xl font-light text-pink-500;
+}
