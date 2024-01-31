@@ -17,7 +17,7 @@ export default async function Home() {
     <div>
       <div className={pageStyles.pageLayout}>
         <div className={pageStyles.heroLayout}>
-          <p className={pageStyles.heroText}>What's on your mind?</p>
+          <p className={pageStyles.heroText}>Whats on your mind?</p>
         </div>
         <Box />
         <AllNote data={data} />
